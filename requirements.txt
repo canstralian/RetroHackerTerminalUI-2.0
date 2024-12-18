@@ -1,0 +1,11 @@
+gradio
+transformers
+datasets
+huggingface_hub
+numpy
+torch
+torchvision
+sentencepiece
+sentence-transformers
+scikit-learn
+pandas
