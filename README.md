@@ -107,7 +107,3 @@ Contributions are welcome! If you’d like to improve this project:
 
 ## 📢 Contact  
 For questions, feedback, or feature requests, please reach out via [Hugging Face Discussions](https://huggingface.co/spaces/RetroHackerTerminalUI/discussions).  
-
----  
-
-Feel free to modify further to suit your project needs! Let me know if you’d like any additional sections.
