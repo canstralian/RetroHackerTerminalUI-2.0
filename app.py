@@ -6,10 +6,10 @@ def chat_interface(user_input, selected_model):
     return response
 
 # List of available models
-models = ["Model A", "Model B", "Model C"]
+models = ["Canstralian/text2shellcommands", "Canstralian/RabbitRedux", "Canstralian/CySec_Known_Exploit_Analyzer"]
 
 # Gradio Interface
-with gr.Blocks(css=".retro-terminal {background-color: black; color: #00FF00; font-family: monospace;}") as demo:
+with gr.Blocks(css="./static/styles.css") as demo:
     with gr.Row():
         gr.Markdown(
             "### Welcome to the Retro Hacker Chat! \n"
@@ -42,4 +42,3 @@ with gr.Blocks(css=".retro-terminal {background-color: black; color: #00FF00; fo
 
 # Launch the interface
 demo.launch()
-
